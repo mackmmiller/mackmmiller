@@ -3,12 +3,17 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  margin: 0 32px;
-  padding: 32px 0;
-`;
+  background: #ffffff;
+  padding: 32px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 100px;
+  z-index: 1;
+`
 
 const Home = styled.h1`
-  font-family: 'Lato', sans-serif;
   font-size: 13px;
   font-weight: 900;
   letter-spacing: 1px;

@@ -7,18 +7,13 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 import './index.css';
 
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-between;
-`;
-
-const Focus = styled.div`
+const Content = styled.div`
+  margin: 100px auto;
+  max-width: 1000px;
 `;
 
 const TemplateWrapper = ({ children }) => (
-  <Wrapper>
+  <div>
     <Helmet
       title="Mackenzie Miller"
       meta={[
@@ -26,19 +21,12 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
-    <Focus
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <Header/>
+    <Content>
       {children()}
-    </Focus>
+    </Content>
     <Nav />
-  </Wrapper>
+  </div>
 )
 
 TemplateWrapper.propTypes = {

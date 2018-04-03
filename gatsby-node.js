@@ -20,7 +20,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           component: path.resolve('./src/posts/Post.js'),
           context: {
             slug: node.slug,
-          }
+          },
         })
       })
       resolve();

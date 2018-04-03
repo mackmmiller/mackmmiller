@@ -3,7 +3,13 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 
 const Wrapper = styled.nav`
-  width: 60%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: #ffffff;
+  z-index: 1;
   margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-weight: 900;

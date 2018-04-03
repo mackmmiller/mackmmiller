@@ -6,7 +6,7 @@ export default class Post extends Component {
     if (!data) return null;
     return (
       <div>
-        <span>{data.contentfulBlogPost.date}</span>
+        <span>{data.contentfulBlogPost.createdAt}</span>
         <h1>{data.contentfulBlogPost.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: data.contentfulBlogPost.body.childMarkdownRemark.html }} />
       </div>
@@ -25,6 +25,7 @@ export const query = graphql`
       }
       slug
       id
+      createdAt(formatString: "MMMM DD, YYYY")
     }
   }
 `
