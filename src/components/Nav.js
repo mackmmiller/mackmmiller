@@ -13,6 +13,7 @@ const Wrapper = styled.nav`
   letter-spacing: 1px;
   padding: 32px;
   > a {
+    padding: 10px;
     text-decoration: none;
     color: #222222;
     &:hover {
