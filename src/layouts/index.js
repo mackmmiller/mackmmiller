@@ -8,8 +8,9 @@ import Nav from '../components/Nav';
 import './index.css';
 
 const Content = styled.div`
-  margin: 100px auto;
   max-width: 1000px;
+  margin: auto;
+  padding: 100px 0;
 `;
 
 const TemplateWrapper = ({ children }) => (

@@ -9,6 +9,7 @@ const Tagline = styled.h1`
   color: #e1483d;
   text-align: center;
   font-size: 6.25vw;
+  margin: 0;
 `
 
 const Wrapper = styled.div`

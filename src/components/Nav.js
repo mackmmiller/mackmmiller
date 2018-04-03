@@ -7,19 +7,16 @@ const Wrapper = styled.nav`
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px;
   background: #ffffff;
   z-index: 1;
-  margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 13px;
   display: flex;
   justify-content: space-around;
   letter-spacing: 1px;
-  padding: 32px;
   > a {
-    padding: 10px;
+    padding: 24px;
     text-decoration: none;
     color: #222222;
     &:hover {

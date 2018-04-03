@@ -4,12 +4,12 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   background: #ffffff;
-  padding: 32px;
   position: fixed;
+  display: flex;
+  align-content: center;
   right: 0;
   left: 0;
   top: 0;
-  height: 100px;
   z-index: 1;
 `
 
@@ -17,6 +17,8 @@ const Home = styled.h1`
   font-size: 13px;
   font-weight: 900;
   letter-spacing: 1px;
+  margin: 0;
+  padding: 24px;
   > a {
     color: #222222;
     text-decoration: none;
