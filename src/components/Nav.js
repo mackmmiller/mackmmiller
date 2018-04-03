@@ -3,6 +3,8 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 
 const Wrapper = styled.nav`
+  width: 60%;
+  margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 13px;
