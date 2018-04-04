@@ -9,7 +9,7 @@ const Wrapper = styled.nav`
   right: 0;
   background: #ffffff;
   z-index: 1;
-  font-family: 'Lato', sans-serif;
+  font-family: system-ui;
   font-weight: 900;
   font-size: 13px;
   display: flex;
@@ -17,10 +17,21 @@ const Wrapper = styled.nav`
   letter-spacing: 1px;
   > a {
     padding: 24px;
+    width: 150px;
     text-decoration: none;
     color: #222222;
+    &::after {
+      content: '>';
+      visibility: hidden;
+    }
+    &::before {
+      content: '<';
+      visibility: hidden;
+    }
     &:hover {
-      text-decoration: line-through;
+      &::before, &::after {
+        visibility: visible;
+      }
     }
   }
 `

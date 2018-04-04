@@ -10,22 +10,20 @@ import './index.css';
 const Content = styled.div`
   max-width: 1000px;
   margin: auto;
-  padding: 100px 0;
+  padding: 100px 15px;
 `;
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Mackenzie Miller"
+      title="Mackenzie Miller | Web Developer and Designer"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header/>
-    <Content>
-      {children()}
-    </Content>
+    <Header />
+    <Content>{children()}</Content>
     <Nav />
   </div>
 )

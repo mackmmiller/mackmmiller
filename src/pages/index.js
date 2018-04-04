@@ -3,7 +3,6 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 
 import Nav from '../components/Nav';
-import photo from '../images/brad-knight-569319-unsplash.jpg';
 
 const Tagline = styled.h1`
   color: #e1483d;

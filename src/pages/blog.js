@@ -2,21 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 import PostListing from '../components/Posts/PostListing';
-
-const Header = styled.header`
-  margin: 0 auto 32px auto;
-  text-align: center;
-  h2 {
-    margin-bottom: 5px;
-  }
-`;
+import Label from '../components/Label';
 
 const Blog = ({ data }) => (
   <div>
-    <Header>
+    <Label>
       <h2>Blog</h2>
       <span>Where I write neat stuff about learning to code</span>
-    </Header>
+    </Label>
     <div>
       {data.allContentfulBlogPost.edges.map(({ node }) => (
         <PostListing key={node.id} post={node} />
