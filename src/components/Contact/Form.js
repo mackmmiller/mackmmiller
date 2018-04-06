@@ -48,7 +48,7 @@ const Form = () => (
         Message
         <textarea name="message" id="message" type="text" rows="5" />
       </label>
-      <button>Send</button>
+      <button type="submit">Send</button>
     </form>
   </Wrapper>
 )
