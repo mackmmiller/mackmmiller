@@ -6,4 +6,4 @@ const Project = ({ demo }) => {
     </article>
 }
 
-export default Project
+export default Project;

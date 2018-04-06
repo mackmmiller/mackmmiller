@@ -15,7 +15,7 @@ const Code = ({ data }) => (
   <div>
     <Label>
       <h2>Code</h2>
-      <span>See my work and what I'm experimenting with</span>
+      <span>My work and what I'm experimenting with.</span>
     </Label>
     <Section>
       <h3>Projects</h3>

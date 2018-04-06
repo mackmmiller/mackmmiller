@@ -2,23 +2,20 @@ import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 
-import Nav from '../components/Nav';
-
-const Tagline = styled.h1`
-  color: #e1483d;
-  text-align: center;
-  font-size: 6.25vw;
-  margin: 0;
-`
-
 const Wrapper = styled.div`
   margin: auto;
   max-width: 960px;
+  > h1 {
+    color: #e1483d;
+    text-align: center;
+    font-size: 6.25vw;
+    margin: 0;
+  }
 `
 
 const IndexPage = () => (
   <Wrapper>
-    <Tagline>I'm not sure what my tagline should be.</Tagline>
+    <h1>I'm not sure what my tagline should be.</h1>
   </Wrapper>
 )
 

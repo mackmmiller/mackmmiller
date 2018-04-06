@@ -8,7 +8,7 @@ const Blog = ({ data }) => (
   <div>
     <Label>
       <h2>Blog</h2>
-      <span>Where I write neat stuff about learning to code</span>
+      <span>Where I write neat stuff.</span>
     </Label>
     <div>
       {data.allContentfulBlogPost.edges.map(({ node }) => (

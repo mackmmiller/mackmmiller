@@ -11,7 +11,9 @@ const Content = styled.div`
   max-width: 1000px;
   margin: auto;
   padding: 100px 15px;
-`;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+`
 
 const TemplateWrapper = ({ children }) => (
   <div>
