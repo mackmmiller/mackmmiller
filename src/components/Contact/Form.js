@@ -17,7 +17,6 @@ const Wrapper = styled.div`
     }
   }
   button {
-    width: 64px;
     margin: 0.5rem auto;
   }
   @media (max-width: 900px) {
