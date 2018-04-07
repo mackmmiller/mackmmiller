@@ -10,6 +10,12 @@ const Content = styled.div`
     width: 50%;
     padding: 1rem;
   }
+  @media (max-width: 600px) {
+    flex-direction: column;
+    > div {
+      width: 100%;
+    }
+  }
 `
 
 const Mail = styled.a`
