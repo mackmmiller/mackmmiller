@@ -20,6 +20,13 @@ const Wrapper = styled.div`
     width: 64px;
     margin: 0.5rem auto;
   }
+  @media (max-width: 900px) {
+    form {
+      > div {
+        flex-direction: column;
+      }
+    }
+  }
 `
 
 const Form = () => (
