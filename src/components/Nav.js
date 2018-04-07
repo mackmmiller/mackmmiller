@@ -15,6 +15,7 @@ const Wrapper = styled.nav`
   display: flex;
   justify-content: space-around;
   letter-spacing: 1px;
+  /* box-shadow: 0px -2px 6px 0px rgba(0, 0, 0, 0.3); */
   > a {
     padding: 1rem 0;
     text-decoration: none;
