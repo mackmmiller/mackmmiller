@@ -16,8 +16,7 @@ const Wrapper = styled.nav`
   justify-content: space-around;
   letter-spacing: 1px;
   > a {
-    padding: 24px;
-    width: 150px;
+    padding-bottom: 1rem;
     text-decoration: none;
     color: #222222;
     &::after {
