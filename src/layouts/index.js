@@ -18,9 +18,12 @@ const Content = styled.div`
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Mackenzie Miller | Web Developer and Designer"
+      title="Mackenzie Miller | Fullstack Web Developer"
       meta={[
         { name: 'description', content: 'Portfolio and blog for fullstack web developer located in Chicago Illinois' },
+        { name: 'og:type', content='website'},
+        { name: 'og:site_name', content='Mackenzie Miller | Fullstack Web Developer'},
+        { name: 'twitter:site', content='@mackmmiller' },
         { name: 'keywords', content: 'web developer, frontend, backend, evanston' },
       ]}
     >
