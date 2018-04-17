@@ -63,7 +63,11 @@ export const query = graphql`
                  title
                  description
                  technologiesUsed
-                 description
+                 source {
+                   childMarkdownRemark {
+                     html
+                   }
+                 }
                  id
                }
              }

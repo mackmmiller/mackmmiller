@@ -20,8 +20,8 @@ const Wrapper = styled.div`
 
 const IndexPage = () => (
   <Wrapper>
-    <h2>Fullstack Web Development.</h2>
-    <h3>Looking for full-time roles, contracts, and freelance work.</h3>
+    <h2>Mackenzie Miller</h2>
+    <h3>Fullstack Web Development.</h3>
   </Wrapper>
 )
 
